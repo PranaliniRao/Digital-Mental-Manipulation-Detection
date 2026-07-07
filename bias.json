@@ -1,0 +1,51 @@
+{
+    "detected_biases": [
+        {
+            "bias": "Scarcity Bias",
+            "confidence": 95,
+            "evidence": "There are only 2 spots left in my mentorship group this month",
+            "explanation": "This statement creates a perception of limited availability, making the opportunity seem more valuable and urgent. The reader is prompted to act quickly before the spots are gone."
+        },
+        {
+            "bias": "FOMO",
+            "confidence": 90,
+            "evidence": "There are only 2 spots left in my mentorship group this month, and I really want it to be you. Don't let your self-doubt or negative family members hold you back from your dreams.",
+            "explanation": "The text explicitly states limited availability and then frames inaction as 'letting self-doubt or negative family members hold you back from your dreams,' directly inducing anxiety about missing out on a desirable future that others are presumably achieving."
+        },
+        {
+            "bias": "Loss Aversion",
+            "confidence": 85,
+            "evidence": "Don't let your self-doubt or negative family members hold you back from your dreams.",
+            "explanation": "This phrase frames the decision not to join as a loss \u2013 specifically, the loss of one's dreams. People are generally more motivated to avoid a loss than to acquire an equivalent gain, making this a powerful motivator."
+        },
+        {
+            "bias": "Social Proof",
+            "confidence": 80,
+            "evidence": "But then I found this incredible community of boss babes! We support each other, travel together, and make passive income from our phones!",
+            "explanation": "The mention of an 'incredible community of boss babes' and their shared positive experiences (support, travel, passive income) suggests that many others are benefiting from this opportunity, validating its desirability and effectiveness."
+        },
+        {
+            "bias": "Confirmation Bias",
+            "confidence": 85,
+            "evidence": "I can tell you\u2019re working so hard and probably feeling exhausted. I used to be stuck in that exact same 9-to-5 grind, feeling completely isolated and barely making ends meet.",
+            "explanation": "The sender attempts to confirm the recipient's likely existing frustrations (exhaustion, grind, isolation, financial struggles) and aspirations (dreams, passive income). By validating these feelings, the sender makes the proposed solution seem more relevant and appealing, bypassing critical scrutiny."
+        },
+        {
+            "bias": "Reciprocity",
+            "confidence": 70,
+            "evidence": "Hey hun! I\u2019ve been following your posts and you look so amazing",
+            "explanation": "The initial compliment and expression of admiration ('you look so amazing') serves as a small 'gift' or favor, subtly creating a psychological obligation for the recipient to respond positively or be more receptive to the subsequent request."
+        }
+    ],
+    "confidence": 95,
+    "supporting_evidence": [
+        "Hey hun! I\u2019ve been following your posts and you look so amazing, but I can tell you\u2019re working so hard and probably feeling exhausted.",
+        "I used to be stuck in that exact same 9-to-5 grind, feeling completely isolated and barely making ends meet.",
+        "But then I found this incredible community of boss babes! We support each other, travel together, and make passive income from our phones!",
+        "There are only 2 spots left in my mentorship group this month, and I really want it to be you.",
+        "Don't let your self-doubt or negative family members hold you back from your dreams.",
+        "DM me right now to claim your spot!"
+    ],
+    "explanation": "The text is a highly manipulative message designed to exploit several cognitive shortcuts. It starts with flattery and empathy to build rapport and confirm potential existing frustrations (Reciprocity, Confirmation Bias). It then introduces a desirable 'community' and its benefits, leveraging Social Proof. The core of the persuasion relies on creating urgency and fear of missing out through Scarcity ('only 2 spots left') and FOMO, reinforced by framing inaction as a loss of 'dreams' (Loss Aversion). The message also preemptively dismisses potential objections by blaming 'self-doubt or negative family members,' further pushing the reader towards immediate action.",
+    "overall_bias_score": 90
+}

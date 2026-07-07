@@ -1,0 +1,17 @@
+{
+    "component_scores": {
+        "Intent": 70.0,
+        "Vulnerability": 88.2,
+        "Cognitive Bias": 84.2,
+        "Influence Strategy": 83.3
+    },
+    "weighted_contributions": {
+        "Intent": 17.5,
+        "Vulnerability": 30.9,
+        "Cognitive Bias": 16.8,
+        "Influence Strategy": 16.7
+    },
+    "total_risk_score": 81.9,
+    "risk_level": "High",
+    "explanation": "\nPsychological Manipulation Risk Score: 81.9/100\n\nIntent Score: 70.0\nWeighted Contribution: 17.5\n\nVulnerability Score: 88.2\nWeighted Contribution: 30.9\n\nBias Score: 84.2\nWeighted Contribution: 16.8\n\nInfluence Score: 83.3\nWeighted Contribution: 16.7\n\nFinal Formula\n\n0.25\u00d770.0\n+\n0.35\u00d788.2\n+\n0.20\u00d784.2\n+\n0.20\u00d783.3\n\n=\n\n81.9\n"
+}

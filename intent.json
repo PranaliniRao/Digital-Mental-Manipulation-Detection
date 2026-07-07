@@ -1,0 +1,22 @@
+{
+    "primary_intent": "Persuasion",
+    "intents_detected": [
+        {
+            "intent": "Persuasion",
+            "confidence": 100
+        },
+        {
+            "intent": "Fear Induction",
+            "confidence": 40
+        }
+    ],
+    "evidence": [
+        "Hey hun! I\u2019ve been following your posts and you look so amazing, but I can tell you\u2019re working so hard and probably feeling exhausted.",
+        "I used to be stuck in that exact same 9-to-5 grind, feeling completely isolated and barely making ends meet.",
+        "But then I found this incredible community of boss babes! We support each other, travel together, and make passive income from our phones!",
+        "There are only 2 spots left in my mentorship group this month, and I really want it to be you.",
+        "Don't let your self-doubt or negative family members hold you back from your dreams.",
+        "DM me right now to claim your spot!"
+    ],
+    "reasoning": "The speaker's primary intent is to persuade the recipient to join their mentorship group. This is achieved through several classic persuasive techniques: establishing rapport and empathy by acknowledging the recipient's perceived struggles ('working so hard and probably feeling exhausted'), sharing a relatable personal story of overcoming similar difficulties ('I used to be stuck in that exact same 9-to-5 grind'), presenting an attractive solution ('incredible community of boss babes! We support each other, travel together, and make passive income'), creating urgency and scarcity ('only 2 spots left'), making a personal appeal ('I really want it to be you'), and preemptively addressing potential objections or self-doubt ('Don't let your self-doubt or negative family members hold you back from your dreams'). The urgent call to action ('DM me right now to claim your spot!') further solidifies the persuasive goal. A secondary, milder intent of Fear Induction is present through the creation of 'Fear of Missing Out' (FOMO) by highlighting limited availability ('only 2 spots left') and implying negative consequences of inaction ('Don't let...hold you back from your dreams')."
+}

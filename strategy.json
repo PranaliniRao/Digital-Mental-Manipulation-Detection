@@ -1,0 +1,42 @@
+{
+    "strategies_identified": [
+        {
+            "strategy": "Fear Appeal",
+            "confidence": 70,
+            "evidence": "I used to be stuck in that exact same 9-to-5 grind, feeling completely isolated and barely making ends meet.",
+            "explanation": "While presented as the speaker's past experience, this statement is used to evoke fear in the target that they are currently in or heading towards a similar undesirable state (exhaustion, isolation, financial struggle) if they do not take action."
+        },
+        {
+            "strategy": "Scarcity",
+            "confidence": 100,
+            "evidence": "There are only 2 spots left in my mentorship group this month, and I really want it to be you. ... DM me right now to claim your spot!",
+            "explanation": "This creates artificial urgency and limited availability, pressuring the target to act immediately before the perceived opportunity is gone. The 'right now' reinforces this urgency."
+        },
+        {
+            "strategy": "Guilt Tripping",
+            "confidence": 80,
+            "evidence": "Don't let your self-doubt... hold you back from your dreams.",
+            "explanation": "This statement implies that not taking this opportunity is a personal failing (self-doubt) and a betrayal of one's own aspirations, inducing guilt to coerce action."
+        },
+        {
+            "strategy": "Emotional Blackmail",
+            "confidence": 60,
+            "evidence": "and I really want it to be you.",
+            "explanation": "This creates a personal appeal and a sense of being specially chosen, subtly implying that not accepting would disappoint the sender or negate their personal desire for the target to succeed, making refusal harder."
+        },
+        {
+            "strategy": "Social Proof",
+            "confidence": 90,
+            "evidence": "But then I found this incredible community of boss babes! We support each other, travel together, and make passive income from our phones!",
+            "explanation": "This highlights the positive experiences and successes of a group ('boss babes') to make the opportunity seem desirable and validated by others' participation and achievements. The speaker's own transformation from '9-to-5 grind' to 'passive income' also serves as a personal testimonial."
+        },
+        {
+            "strategy": "Isolation",
+            "confidence": 100,
+            "evidence": "Don't let your... negative family members hold you back from your dreams.",
+            "explanation": "This directly advises against listening to potential critical voices from the target's existing support network, aiming to isolate them from external perspectives that might question the opportunity."
+        }
+    ],
+    "manipulation_tactics_count": 6,
+    "subtlety_level": "Medium"
+}
