@@ -6,6 +6,6 @@ Instead of predicting "manipulative or not" in a single step, this pipeline mode
 `Input Text` → `Intent Analyzer` → `Vulnerability Analyzer` → `Influence Strategy Analyzer` → `Judge Agent` → `Final Manipulation Assessment`
 
 ---
-YO YO YO WHATS GOOD
+# YO YO YO WHATS GOOD
 
 ## Folder Structure
