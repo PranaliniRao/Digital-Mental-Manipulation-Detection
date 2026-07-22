@@ -1,0 +1,1 @@
+export function Loading({ label = 'Loading' }: { label?: string }) { return <div role="status" className="inline-flex items-center gap-2 text-sm text-muted"><span className="relative size-3 rounded-full border border-violet/30"><span className="absolute inset-0 animate-ping rounded-full bg-violet/30"/></span>{label}</div> }

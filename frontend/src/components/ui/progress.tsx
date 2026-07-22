@@ -1,0 +1,2 @@
+export function Progress({ value, label }: { value: number; label?: string }) { const clamped = Math.min(100, Math.max(0, value)); return <div className="space-y-1.5" aria-label={label}><div className="h-1.5 overflow-hidden rounded-full bg-white/[0.07]"><div className="h-full rounded-full bg-cyan transition-all" style={{ width: `${clamped}%` }} /></div>{label && <p className="text-xs text-muted">{label}</p>}</div> }
+

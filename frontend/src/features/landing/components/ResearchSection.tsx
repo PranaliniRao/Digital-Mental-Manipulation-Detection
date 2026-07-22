@@ -1,0 +1,5 @@
+import { MotionReveal } from '../../../motion/MotionReveal'
+import { Card } from '../../../components/ui/card'
+
+export function ResearchSection() { return <section id="research" className="mx-auto max-w-7xl px-5 py-24 sm:px-8 sm:py-32 lg:px-10"><Card className="relative overflow-hidden p-8 sm:p-12"><div className="absolute right-0 top-0 size-72 -translate-y-1/2 translate-x-1/3 rounded-full bg-cyan/[0.06] blur-3xl" /><MotionReveal className="relative max-w-3xl"><p className="eyebrow">Research posture</p><h2 className="section-title mt-5">Interpretation with an audit trail.</h2><p className="mt-6 max-w-2xl text-base leading-7 text-muted">Manipulation analysis is consequential. SignalGuard is being shaped around clarity, calibrated confidence, and room for expert review—not opaque certainty.</p><div className="mt-10 flex flex-wrap gap-x-8 gap-y-3 font-mono text-[0.68rem] uppercase tracking-[0.14em] text-muted"><span>Human oversight</span><span>Traceable reasoning</span><span>Confidence-aware design</span></div></MotionReveal></Card></section> }
+

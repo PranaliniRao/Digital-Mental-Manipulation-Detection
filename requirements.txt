@@ -1,0 +1,13 @@
+torch
+transformers
+accelerate
+safetensors
+requests
+Pillow
+fastapi
+uvicorn
+pyngrok
+flask
+flask-cors
+python-dotenv
+groq

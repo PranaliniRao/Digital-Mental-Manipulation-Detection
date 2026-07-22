@@ -1,0 +1,4 @@
+import { Link } from 'react-router-dom'
+import { Button, Input } from '../../../components/ui'
+export function ForgotPasswordPage() { return <section><p className="eyebrow">Account recovery</p><h1 className="mt-4 tracking-display text-4xl font-semibold">Reset your password.</h1><p className="mt-4 text-sm leading-6 text-muted">Enter your email to receive recovery instructions when authentication is connected.</p><form className="mt-10 space-y-5" onSubmit={(event) => event.preventDefault()}><label className="block text-xs font-semibold text-ink">Work email<Input className="mt-2" type="email" placeholder="you@company.com" /></label><Button className="w-full" size="lg" type="submit">Send recovery link</Button></form><p className="mt-7 text-center text-xs text-muted"><Link className="font-semibold text-cyan" to="/login">Back to sign in</Link></p></section> }
+

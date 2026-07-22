@@ -1,0 +1,3 @@
+import type { PropsWithChildren, ReactNode } from 'react'
+import { motion } from 'framer-motion'
+export function Dialog({ title, children }: PropsWithChildren<{ title: ReactNode }>) { return <motion.section initial={{ opacity: 0, scale: .97, y: 10 }} animate={{ opacity: 1, scale: 1, y: 0 }} exit={{ opacity: 0, scale: .98, y: 6 }} transition={{ duration: .22, ease: [0.22, 1, 0.36, 1] }} role="dialog" aria-modal="true" aria-label={typeof title === 'string' ? title : undefined} className="w-full max-w-lg rounded-panel border border-subtle bg-elevated p-6 shadow-panel"><h2 className="text-lg font-semibold">{title}</h2><div className="mt-4">{children}</div></motion.section> }

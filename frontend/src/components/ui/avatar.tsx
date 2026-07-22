@@ -1,0 +1,4 @@
+import { cn } from '../../utils/cn'
+import { motion } from 'framer-motion'
+import { useProfile } from '../../providers/ProfileProvider'
+export function Avatar({ name, className }: { name?: string; className?: string }) { const { profile, fullName, initials } = useProfile(); const placeholder = name === 'AS' || name === 'SG'; const label = placeholder ? fullName : name ?? fullName; const avatar = placeholder || !name ? profile.avatar : undefined; return <motion.span layout aria-label={label} className={cn('relative grid size-8 shrink-0 place-items-center overflow-hidden rounded-full border border-cyan/25 bg-cyan/10 text-[0.7rem] font-bold text-cyan', className)}>{avatar ? <motion.img key={avatar} initial={{ opacity: 0, scale: 1.06 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: .24 }} src={avatar} alt="" className="size-full object-cover"/> : (placeholder || !name ? initials : name.slice(0, 2).toUpperCase())}</motion.span> }

@@ -1,0 +1,17 @@
+:root {
+  --canvas: 14 13 17;
+  --surface: 25 23 30;
+  --elevated: 35 32 42;
+  --ink: 245 243 250;
+  --muted: 166 160 178;
+  --cyan: 139 92 246;
+  --violet: 139 92 246;
+  --success: 78 205 146;
+  --warning: 249 184 71;
+  --danger: 244 105 105;
+  --border: 255 255 255;
+  --radius-control: 0.75rem;
+  --radius-panel: 1.25rem;
+  --shadow-panel: 0 24px 70px rgb(0 0 0 / 0.28);
+  --shadow-glow: 0 0 0 1px rgb(139 92 246 / 0.18), 0 18px 48px rgb(139 92 246 / 0.12);
+}
