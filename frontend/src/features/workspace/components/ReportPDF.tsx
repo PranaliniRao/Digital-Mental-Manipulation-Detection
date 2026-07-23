@@ -1,16 +1,11 @@
-import { Document, Page, Text, View, StyleSheet, Font } from '@react-pdf/renderer'
+import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer'
 import type { LiveAnalysisResult } from '../data/normalizeAnalysisResult'
 import { formatDisplayLabel } from '../../../utils/formatDisplayLabel'
-
-Font.register({
-  family: 'Inter',
-  src: 'https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff',
-})
 
 const styles = StyleSheet.create({
   page: {
     padding: 40,
-    fontFamily: 'Inter',
+    fontFamily: 'Helvetica',
     fontSize: 10,
     lineHeight: 1.5,
     color: '#1a1a1a',
@@ -247,7 +242,7 @@ export function ReportPDF({ result, filename = 'Manipulation Analysis Report' }:
 
             {result.defence.protective_actions && result.defence.protective_actions.length > 0 && (
               <View style={styles.defenceSegment}>
-                <Text style={styles.defenceSegmentTitle}>⚠ Protective Actions</Text>
+                <Text style={styles.defenceSegmentTitle}>Protective Actions</Text>
                 {result.defence.protective_actions.map((action, i) => (
                   <Text key={i} style={styles.bullet}>• {action}</Text>
                 ))}
@@ -256,7 +251,7 @@ export function ReportPDF({ result, filename = 'Manipulation Analysis Report' }:
 
             {result.defence.communication_boundaries && result.defence.communication_boundaries.length > 0 && (
               <View style={styles.defenceSegment}>
-                <Text style={styles.defenceSegmentTitle}>🛡 Communication Boundaries</Text>
+                <Text style={styles.defenceSegmentTitle}>Communication Boundaries</Text>
                 {result.defence.communication_boundaries.map((boundary, i) => (
                   <Text key={i} style={styles.bullet}>• {boundary}</Text>
                 ))}
@@ -265,14 +260,14 @@ export function ReportPDF({ result, filename = 'Manipulation Analysis Report' }:
 
             {result.defence.manipulation_education && (
               <View style={styles.defenceSegment}>
-                <Text style={styles.defenceSegmentTitle}>📘 Manipulation Education</Text>
+                <Text style={styles.defenceSegmentTitle}>Manipulation Education</Text>
                 <Text style={styles.value}>{result.defence.manipulation_education}</Text>
               </View>
             )}
 
             {result.defence.counter_strategies && result.defence.counter_strategies.length > 0 && (
               <View style={styles.defenceSegment}>
-                <Text style={styles.defenceSegmentTitle}>🎯 Counter-Strategies</Text>
+                <Text style={styles.defenceSegmentTitle}>Counter-Strategies</Text>
                 {result.defence.counter_strategies.map((strategy, i) => (
                   <Text key={i} style={styles.bullet}>• {strategy}</Text>
                 ))}
@@ -282,7 +277,7 @@ export function ReportPDF({ result, filename = 'Manipulation Analysis Report' }:
             {result.defence.escalation_recommendation && (
               <View style={result.defence.escalation_recommendation.needed ? styles.escalationBox : styles.defenceSegment}>
                 <Text style={result.defence.escalation_recommendation.needed ? styles.escalationTitle : styles.defenceSegmentTitle}>
-                  🚨 Escalation
+                  Escalation
                 </Text>
                 {result.defence.escalation_recommendation.needed ? (
                   <>
